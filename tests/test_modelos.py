@@ -46,6 +46,12 @@ class TestEscenario(unittest.TestCase):
                       for f in FuenteJSON().cargar(DATA / "escenarios.json")]
         self.assertEqual(desde_csv, desde_json)
 
+    def test_probabilidades_que_nunca_desempatan(self):
+        with self.assertRaises(ValueError):
+            Escenario("ESC-001", 1.0, 1.0, 10, 1)
+        with self.assertRaises(ValueError):
+            Escenario("ESC-001", 0.0, 0.0, 10, 1)    
+
 
 if __name__ == "__main__":
     unittest.main()

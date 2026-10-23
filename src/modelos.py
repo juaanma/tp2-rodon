@@ -33,6 +33,10 @@ class Escenario:
                 raise ValueError(f"'{nombre}' debe estar entre 0 y 1 (recibido: {prob})")
         if repeticiones <= 0:
             raise ValueError(f"'repeticiones' debe ser mayor que 0 (recibido: {repeticiones})")
+        if prob_gol_a == prob_gol_b and prob_gol_a in (0, 1):
+            raise ValueError(
+                "Con ambas probabilidades en 0 o ambas en 1 la tanda nunca se desempata"
+            )    
 
         self.id = id
         self.prob_gol_a = prob_gol_a
