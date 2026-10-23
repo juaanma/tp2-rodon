@@ -29,3 +29,33 @@ Cada fila de los archivos de escenarios es un escenario de simulación.
 distintos (id mal formado, id repetido, probabilidad fuera de rango,
 repeticiones en cero, semilla faltante y valor no numérico). Se usa para
 mostrar cómo el programa los rechaza y los registra.
+
+## Observaciones: tandas simuladas
+
+Las observaciones del trabajo son las tandas que genera la simulación. No se
+versionan completas (la carpeta `outputs/` está en el `.gitignore`), pero se
+regeneran de forma idéntica ejecutando el programa con la misma semilla:
+
+    python -m src.main --entrada data/escenarios.csv --todos
+
+Cada escenario produce entre 100 y 1000 observaciones (una por repetición).
+Con los escenarios de ejemplo se generan 3100 tandas en total.
+
+Unidad de análisis de las tandas: cada fila es una tanda de penales simulada.
+
+| variable | tipo | descripción |
+|---|---|---|
+| id_escenario | texto | escenario al que pertenece la tanda |
+| nro_tanda | entero | número de repetición dentro del escenario |
+| goles_a | entero | penales convertidos por el equipo A |
+| goles_b | entero | penales convertidos por el equipo B |
+| penales_pateados | entero | penales por equipo (5 más los de muerte súbita) |
+| ganador | texto | A o B (nunca hay empate) |
+
+### Muestra incluida en el repositorio
+
+`muestra_tandas.csv` contiene 100 tandas del escenario ESC-001 (semilla 42),
+para poder ver el formato de las observaciones sin ejecutar el programa.
+
+
+

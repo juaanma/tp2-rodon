@@ -103,9 +103,10 @@ Archivos generados en `outputs/` (no se versionan):
 
 ## Interpretación y limitaciones
 
-El porcentaje de victorias es una estimación: con 1000 repeticiones el margen
-de error ronda los 1,5 puntos porcentuales, por eso dos equipos parejos dan
-valores cercanos a 50% pero no exactamente 50%.
+El porcentaje de victorias es una estimación: con 1000 repeticiones el error
+estándar ronda los 1,6 puntos porcentuales (el margen al 95% es de unos
+±3 puntos), por eso dos equipos parejos dan valores cercanos a 50% pero no
+exactamente 50%.
 
 Como las probabilidades son supuestas, los resultados solo valen para esos
 supuestos y no sirven para predecir partidos reales. Se asume que cada penal es
