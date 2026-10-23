@@ -1,0 +1,6 @@
+[
+  {"id": "ESC-001", "prob_gol_a": 0.75, "prob_gol_b": 0.70, "repeticiones": 1000, "semilla": 42},
+  {"id": "ESC-002", "prob_gol_a": 0.75, "prob_gol_b": 0.75, "repeticiones": 1000, "semilla": 7},
+  {"id": "ESC-003", "prob_gol_a": 1.0, "prob_gol_b": 0.0, "repeticiones": 100, "semilla": 1},
+  {"id": "ESC-004", "prob_gol_a": 0.50, "prob_gol_b": 0.50, "repeticiones": 1000, "semilla": 99}
+]

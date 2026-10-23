@@ -1,0 +1,5 @@
+id,prob_gol_a,prob_gol_b,repeticiones,semilla
+ESC-001,0.75,0.70,1000,42
+ESC-002,0.75,0.75,1000,7
+ESC-003,1.0,0.0,100,1
+ESC-004,0.50,0.50,1000,99
