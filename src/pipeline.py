@@ -1,5 +1,6 @@
 """Simulacion de tandas de penales, resumen y guardado de resultados."""
 
+from src.modelos import Escenario
 import csv
 import json
 import random
@@ -86,3 +87,63 @@ def guardar_experimento(escenario, tandas, carpeta="outputs"):
         json.dump(contenido, archivo, indent=2, ensure_ascii=False)
 
     return ruta_tandas, ruta_resumen
+
+COLUMNAS_REQUERIDAS = {"id", "prob_gol_a", "prob_gol_b", "repeticiones", "semilla"}
+
+
+def validar_esquema(filas):
+    """Comprueba que haya datos y que esten todas las columnas necesarias."""
+    if not filas:
+        raise ValueError("El archivo no contiene escenarios")
+    primera = filas[0]
+    if not isinstance(primera, dict):
+        raise ValueError("Cada escenario debe ser un objeto con campos")
+    faltantes = COLUMNAS_REQUERIDAS - set(primera.keys())
+    if faltantes:
+        raise ValueError(f"Faltan columnas: {', '.join(sorted(faltantes))}")
+
+
+def limpiar_escenarios(filas):
+    """Separa escenarios validos de rechazados.
+
+    Decisiones de limpieza:
+    - Una fila invalida se rechaza y se registra con su motivo.
+    - Si un id esta repetido, se conserva el primero y se rechazan los demas.
+    El numero de fila cuenta los datos (sin el encabezado), desde 1.
+    """
+    validos = []
+    rechazos = []
+    vistos = set()
+    for numero, fila in enumerate(filas, start=1):
+        try:
+            escenario = Escenario.desde_dict(fila)
+            if escenario.id in vistos:
+                raise ValueError(f"id repetido: {escenario.id}")
+            vistos.add(escenario.id)
+            validos.append(escenario)
+        except (ValueError, TypeError) as error:
+            id_fila = fila.get("id", "") if isinstance(fila, dict) else ""
+            rechazos.append({"fila": numero, "id": id_fila, "motivo": str(error)})
+    return validos, rechazos
+
+
+def seleccionar(escenarios, id_escenario=None):
+    """Devuelve todos los escenarios, o solo el pedido por id."""
+    if id_escenario is None:
+        return list(escenarios)
+    elegidos = [e for e in escenarios if e.id == id_escenario]
+    if not elegidos:
+        raise ValueError(f"No existe un escenario valido con id {id_escenario}")
+    return elegidos
+
+
+def guardar_rechazos(rechazos, carpeta="outputs"):
+    """Guarda los escenarios rechazados con su motivo."""
+    carpeta = Path(carpeta)
+    carpeta.mkdir(parents=True, exist_ok=True)
+    ruta = carpeta / "rechazos.csv"
+    with open(ruta, "w", newline="", encoding="utf-8") as archivo:
+        escritor = csv.DictWriter(archivo, fieldnames=["fila", "id", "motivo"])
+        escritor.writeheader()
+        escritor.writerows(rechazos)
+    return ruta
