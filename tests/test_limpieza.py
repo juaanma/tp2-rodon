@@ -67,6 +67,12 @@ class TestLimpieza(unittest.TestCase):
             lineas = ruta.read_text(encoding="utf-8").strip().splitlines()
             self.assertEqual(len(lineas), 5)  # encabezado + 4 rechazos
 
+    def test_archivo_con_errores_de_ejemplo(self):
+        filas = FuenteCSV().cargar(DATA / "escenarios_con_errores.csv")
+        validos, rechazos = limpiar_escenarios(filas)
+        self.assertEqual([e.id for e in validos], ["ESC-001", "ESC-006"])
+        self.assertEqual([r["fila"] for r in rechazos], [2, 3, 4, 5, 6, 7])       
+
 
 if __name__ == "__main__":
     unittest.main()

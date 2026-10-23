@@ -23,3 +23,9 @@ Cada fila de los archivos de escenarios es un escenario de simulación.
   para esos supuestos.
 - Se asume que cada penal es independiente y que todos los pateadores de un
   equipo tienen la misma probabilidad de convertir.
+
+## Archivo de demostración de la limpieza
+`escenarios_con_errores.csv` contiene 8 filas: 2 válidas y 6 con errores
+distintos (id mal formado, id repetido, probabilidad fuera de rango,
+repeticiones en cero, semilla faltante y valor no numérico). Se usa para
+mostrar cómo el programa los rechaza y los registra.
