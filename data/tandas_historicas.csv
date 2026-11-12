@@ -1,0 +1,98 @@
+id,torneo,anio,ronda,ganador,perdedor,resultado_partido,goles_ganador,goles_perdedor,tiros_ganador,tiros_perdedor
+MUN-1982-01,Mundial,1982,SF,FR Germany,France,3-3,5,4,6,6
+MUN-1986-01,Mundial,1986,QF,FR Germany,Mexico,0-0,4,1,4,3
+MUN-1986-02,Mundial,1986,QF,France,Brazil,1-1,4,3,5,5
+MUN-1986-03,Mundial,1986,QF,Belgium,Spain,1-1,5,4,5,5
+MUN-1990-01,Mundial,1990,2R,Rep. Ireland,Romania,0-0,5,4,5,5
+MUN-1990-02,Mundial,1990,QF,Argentina,Yugoslavia,0-0,3,2,5,5
+MUN-1990-03,Mundial,1990,SF,Argentina,Italy,1-1,4,3,4,5
+MUN-1990-04,Mundial,1990,SF,FR Germany,England,1-1,4,3,4,5
+MUN-1994-01,Mundial,1994,2R,Bulgaria,Mexico,1-1,3,1,4,4
+MUN-1994-02,Mundial,1994,QF,Sweden,Romania,2-2,5,4,6,6
+MUN-1994-03,Mundial,1994,F,Brazil,Italy,0-0,3,2,4,5
+MUN-1998-01,Mundial,1998,2R,Argentina,England,2-2,4,3,5,5
+MUN-1998-02,Mundial,1998,QF,France,Italy,0-0,4,3,5,5
+MUN-1998-03,Mundial,1998,SF,Brazil,Netherlands,1-1,4,2,4,4
+MUN-2002-01,Mundial,2002,2R,Spain,Rep. Ireland,1-1,3,2,5,5
+MUN-2002-02,Mundial,2002,QF,South Korea,Spain,0-0,5,3,5,4
+MUN-2006-01,Mundial,2006,2R,Ukraine,Switzerland,0-0,3,0,4,3
+MUN-2006-02,Mundial,2006,QF,Germany,Argentina,1-1,4,2,4,4
+MUN-2006-03,Mundial,2006,QF,Portugal,England,0-0,3,1,5,4
+MUN-2006-04,Mundial,2006,F,Italy,France,1-1,5,3,5,4
+MUN-2010-01,Mundial,2010,2R,Paraguay,Japan,0-0,5,3,5,4
+MUN-2010-02,Mundial,2010,QF,Uruguay,Ghana,1-1,4,2,5,4
+MUN-2014-01,Mundial,2014,2R,Brazil,Chile,1-1,3,2,5,5
+MUN-2014-02,Mundial,2014,2R,Costa Rica,Greece,1-1,5,3,5,4
+MUN-2014-03,Mundial,2014,QF,Netherlands,Costa Rica,0-0,4,3,4,5
+MUN-2014-04,Mundial,2014,SF,Argentina,Netherlands,0-0,4,2,4,4
+MUN-2018-01,Mundial,2018,2R,Russia,Spain,1-1,4,3,4,5
+MUN-2018-02,Mundial,2018,2R,Croatia,Denmark,1-1,3,2,5,5
+MUN-2018-03,Mundial,2018,2R,England,Colombia,1-1,4,3,5,5
+MUN-2018-04,Mundial,2018,QF,Croatia,Russia,2-2,4,3,5,5
+MUN-2022-01,Mundial,2022,2R,Croatia,Japan,1-1,3,1,4,4
+MUN-2022-02,Mundial,2022,2R,Morocco,Spain,0-0,3,0,4,3
+MUN-2022-03,Mundial,2022,QF,Croatia,Brazil,1-1,4,2,4,4
+MUN-2022-04,Mundial,2022,QF,Argentina,Netherlands,2-2,4,3,5,5
+MUN-2022-05,Mundial,2022,F,Argentina,France,3-3,4,2,4,4
+MUN-2026-01,Mundial,2026,2R,Paraguay,Germany,1-1,4,3,6,6
+MUN-2026-02,Mundial,2026,2R,Morocco,Netherlands,1-1,3,2,5,5
+MUN-2026-03,Mundial,2026,2R,Egypt,Australia,1-1,4,2,4,4
+MUN-2026-04,Mundial,2026,3R,Switzerland,Colombia,0-0,4,3,5,5
+EUR-1976-01,Eurocopa,1976,F,Czechoslovakia,FR Germany,2-2,5,3,5,4
+EUR-1980-01,Eurocopa,1980,3/4,Czechoslovakia,Italy,1-1,9,8,9,9
+EUR-1984-01,Eurocopa,1984,SF,Spain,Denmark,1-1,5,4,5,5
+EUR-1992-01,Eurocopa,1992,SF,Denmark,Netherlands,2-2,5,4,5,5
+EUR-1996-01,Eurocopa,1996,QF,England,Spain,0-0,4,2,4,4
+EUR-1996-02,Eurocopa,1996,QF,France,Netherlands,0-0,5,4,5,5
+EUR-1996-03,Eurocopa,1996,SF,Czech Rep.,France,0-0,6,5,6,6
+EUR-1996-04,Eurocopa,1996,SF,Germany,England,1-1,6,5,6,6
+EUR-2000-01,Eurocopa,2000,SF,Italy,Netherlands,0-0,3,1,4,4
+EUR-2004-01,Eurocopa,2004,QF,Portugal,England,2-2,6,5,7,7
+EUR-2004-02,Eurocopa,2004,QF,Netherlands,Sweden,0-0,5,4,6,6
+EUR-2008-01,Eurocopa,2008,QF,Turkey,Croatia,1-1,3,1,3,4
+EUR-2008-02,Eurocopa,2008,QF,Spain,Italy,0-0,4,2,5,4
+EUR-2012-01,Eurocopa,2012,QF,Italy,England,0-0,4,2,5,4
+EUR-2012-02,Eurocopa,2012,SF,Spain,Portugal,0-0,4,2,5,4
+EUR-2016-01,Eurocopa,2016,2R,Poland,Switzerland,1-1,5,4,5,5
+EUR-2016-02,Eurocopa,2016,QF,Portugal,Poland,1-1,5,3,5,4
+EUR-2016-03,Eurocopa,2016,QF,Germany,Italy,1-1,6,5,9,9
+EUR-2020-01,Eurocopa,2020,2R,Switzerland,France,3-3,5,4,5,5
+EUR-2020-02,Eurocopa,2020,QF,Spain,Switzerland,1-1,3,1,5,4
+EUR-2020-03,Eurocopa,2020,SF,Italy,Spain,1-1,4,2,5,4
+EUR-2020-04,Eurocopa,2020,F,Italy,England,1-1,3,2,5,5
+EUR-2024-01,Eurocopa,2024,2R,Portugal,Slovenia,0-0,3,0,3,3
+EUR-2024-02,Eurocopa,2024,QF,France,Portugal,0-0,5,3,5,4
+EUR-2024-03,Eurocopa,2024,QF,England,Switzerland,1-1,5,3,5,4
+CAM-1993-01,Copa America,1993,QF,Colombia,Uruguay,1-1,5,3,5,4
+CAM-1993-02,Copa America,1993,QF,Argentina,Brazil,1-1,6,5,6,6
+CAM-1993-03,Copa America,1993,SF,Argentina,Colombia,0-0,6,5,6,6
+CAM-1995-01,Copa America,1995,QF,Colombia,Paraguay,1-1,5,4,5,5
+CAM-1995-02,Copa America,1995,QF,Brazil,Argentina,2-2,4,2,5,4
+CAM-1995-03,Copa America,1995,QF,United States,Mexico,0-0,4,1,4,3
+CAM-1995-04,Copa America,1995,F,Uruguay,Brazil,0-0,5,3,5,4
+CAM-1997-01,Copa America,1997,QF,Mexico,Ecuador,1-1,4,3,6,6
+CAM-1999-01,Copa America,1999,QF,Mexico,Peru,3-3,4,2,4,4
+CAM-1999-02,Copa America,1999,QF,Uruguay,Paraguay,1-1,5,3,5,4
+CAM-1999-03,Copa America,1999,QF,Uruguay,Chile,1-1,5,3,5,4
+CAM-2001-01,Copa America,2001,3/4,Honduras,Uruguay,2-2,5,4,5,5
+CAM-2004-01,Copa America,2004,SF,Brazil,Uruguay,1-1,5,3,5,4
+CAM-2004-02,Copa America,2004,F,Brazil,Argentina,2-2,4,2,4,4
+CAM-2007-01,Copa America,2007,SF,Brazil,Uruguay,2-2,5,4,7,7
+CAM-2011-01,Copa America,2011,QF,Uruguay,Argentina,1-1,5,4,5,5
+CAM-2011-02,Copa America,2011,QF,Paraguay,Brazil,0-0,2,0,3,4
+CAM-2011-03,Copa America,2011,SF,Paraguay,Venezuela,0-0,5,3,5,4
+CAM-2015-01,Copa America,2015,QF,Argentina,Colombia,0-0,5,4,7,7
+CAM-2015-02,Copa America,2015,QF,Paraguay,Brazil,1-1,4,3,5,5
+CAM-2015-03,Copa America,2015,F,Chile,Argentina,0-0,4,1,4,3
+CAM-2016-01,Copa America,2016,QF,Colombia,Peru,0-0,4,2,4,4
+CAM-2016-02,Copa America,2016,F,Chile,Argentina,0-0,4,2,5,4
+CAM-2019-01,Copa America,2019,QF,Brazil,Paraguay,0-0,4,3,5,5
+CAM-2019-02,Copa America,2019,QF,Chile,Colombia,0-0,5,4,5,5
+CAM-2019-03,Copa America,2019,QF,Peru,Uruguay,0-0,5,4,5,5
+CAM-2021-01,Copa America,2021,QF,Peru,Paraguay,3-3,4,3,6,6
+CAM-2021-02,Copa America,2021,QF,Colombia,Uruguay,0-0,4,2,4,4
+CAM-2021-03,Copa America,2021,SF,Argentina,Colombia,1-1,3,2,4,5
+CAM-2024-01,Copa America,2024,QF,Argentina,Ecuador,1-1,4,2,5,4
+CAM-2024-02,Copa America,2024,QF,Canada,Venezuela,1-1,4,3,6,6
+CAM-2024-03,Copa America,2024,QF,Uruguay,Brazil,0-0,4,2,5,4
+CAM-2024-04,Copa America,2024,3/4,Uruguay,Canada,2-2,4,3,4,5

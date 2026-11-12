@@ -1,0 +1,19 @@
+codigo_equipo,equipo,rol,nombre,efectividad,temple,factor_atajada
+NOR,Atletico Norte,arquero,Ferreyra,,,0.04
+NOR,Atletico Norte,pateador,Acosta,0.86,0.30,
+NOR,Atletico Norte,pateador,Benitez,0.82,0.90,
+NOR,Atletico Norte,pateador,Castro,0.80,0.55,
+NOR,Atletico Norte,pateador,Dominguez,0.78,0.85,
+NOR,Atletico Norte,pateador,Escobar,0.77,0.20,
+NOR,Atletico Norte,pateador,Funes,,0.60,
+NOR,Atletico Norte,pateador,Gimenez,0.70,,
+NOR,Atletico Norte,pateador,Herrera,0.65,0.40,
+SUR,Deportivo Sur,arquero,Ibarra,,,-0.02
+SUR,Deportivo Sur,pateador,Juarez,0.84,0.60,
+SUR,Deportivo Sur,pateador,Ledesma,0.81,0.50,
+SUR,Deportivo Sur,pateador,Medina,0.79,0.70,
+SUR,Deportivo Sur,pateador,Navarro,0.76,0.45,
+SUR,Deportivo Sur,pateador,Ortiz,0.75,0.65,
+SUR,Deportivo Sur,pateador,Paz,,,
+SUR,Deportivo Sur,pateador,Quiroga,0.68,0.50,
+SUR,Deportivo Sur,pateador,Rios,0.66,0.35,

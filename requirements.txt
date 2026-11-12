@@ -1,1 +1,3 @@
-# Sin dependencias externas: solo biblioteca estandar de Python.
+# El programa funciona solo con la biblioteca estándar de Python.
+# matplotlib es opcional: se usa únicamente para generar los gráficos PNG.
+matplotlib>=3.5

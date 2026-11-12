@@ -1,0 +1,13 @@
+id,torneo,anio,ronda,ganador,perdedor,resultado_partido,goles_ganador,goles_perdedor,tiros_ganador,tiros_perdedor
+MUN-2022-05,Mundial,2022,F,Argentina,France,3-3,4,2,4,4
+MUN-2022-05,Mundial,2022,F,Argentina,France,3-3,4,2,4,4
+MUN-22-01,Mundial,2022,QF,Croatia,Brazil,1-1,4,2,4,4
+EUR-2024-01,Eurocopa,2024,2R,Portugal,Slovenia,1-0,3,0,3,3
+CAM-2024-01,Copa America,2024,QF,Argentina,Ecuador,1-1,6,2,5,4
+CAM-2024-02,Copa America,2024,QF,Canada,Venezuela,1-1,5,3,5,5
+MUN-2018-01,Copa America,2018,2R,Russia,Spain,1-1,4,3,4,5
+EUR-2016-01,Eurocopa,2016,8R,Poland,Switzerland,1-1,5,4,5,5
+CAM-2021-01,Copa America,2021,QF,Peru,,3-3,4,3,6,6
+MUN-2014-01,Mundial,2014,2R,Brazil,Chile,1-1,3,dos,5,5
+MUN-1970-01,Mundial,1970,SF,Italy,Germany,4-4,5,4,5,5
+CAM-2019-01,Copa America,2019,QF,Brazil,Paraguay,0-0,4,3,5,5

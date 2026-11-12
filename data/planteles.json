@@ -1,0 +1,164 @@
+[
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "arquero",
+    "nombre": "Ferreyra",
+    "efectividad": null,
+    "temple": null,
+    "factor_atajada": 0.04
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Acosta",
+    "efectividad": 0.86,
+    "temple": 0.3,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Benitez",
+    "efectividad": 0.82,
+    "temple": 0.9,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Castro",
+    "efectividad": 0.8,
+    "temple": 0.55,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Dominguez",
+    "efectividad": 0.78,
+    "temple": 0.85,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Escobar",
+    "efectividad": 0.77,
+    "temple": 0.2,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Funes",
+    "efectividad": null,
+    "temple": 0.6,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Gimenez",
+    "efectividad": 0.7,
+    "temple": null,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "NOR",
+    "equipo": "Atletico Norte",
+    "rol": "pateador",
+    "nombre": "Herrera",
+    "efectividad": 0.65,
+    "temple": 0.4,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "arquero",
+    "nombre": "Ibarra",
+    "efectividad": null,
+    "temple": null,
+    "factor_atajada": -0.02
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Juarez",
+    "efectividad": 0.84,
+    "temple": 0.6,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Ledesma",
+    "efectividad": 0.81,
+    "temple": 0.5,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Medina",
+    "efectividad": 0.79,
+    "temple": 0.7,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Navarro",
+    "efectividad": 0.76,
+    "temple": 0.45,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Ortiz",
+    "efectividad": 0.75,
+    "temple": 0.65,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Paz",
+    "efectividad": null,
+    "temple": null,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Quiroga",
+    "efectividad": 0.68,
+    "temple": 0.5,
+    "factor_atajada": null
+  },
+  {
+    "codigo_equipo": "SUR",
+    "equipo": "Deportivo Sur",
+    "rol": "pateador",
+    "nombre": "Rios",
+    "efectividad": 0.66,
+    "temple": 0.35,
+    "factor_atajada": null
+  }
+]
